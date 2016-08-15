@@ -1,0 +1,17 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "express",
+            "contents": "express()"
+        },
+        {
+            "trigger": "express.static",
+            "contents": "express.static()"
+        },
+        {
+            "trigger": "express.router([options])",
+            "contents": "express.Router(${0:options})"
+        }
+    ]
+}

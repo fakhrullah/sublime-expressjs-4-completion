@@ -1,0 +1,129 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "req.app",
+            "contents": "req.app"
+        },
+        {
+            "trigger": "req.baseUrl",
+            "contents": "req.baseUrl"
+        },
+        {
+            "trigger": "req.body",
+            "contents": "req.body"
+        },
+        {
+            "trigger": "req.cookies[.name]",
+            "contents": "req.cookies.${0:name}"
+        },
+        {
+            "trigger": "req.fresh",
+            "contents": "req.fresh"
+        },
+        {
+            "trigger": "req.hostname",
+            "contents": "req.hostname"
+        },
+        {
+            "trigger": "req.ip",
+            "contents": "req.ip"
+        },
+        {
+            "trigger": "req.ips",
+            "contents": "req.ips"
+        },
+        {
+            "trigger": "req.get",
+            "contents": "req.get"
+        },
+        {
+            "trigger": "req.put",
+            "contents": "req.put"
+        },
+        {
+            "trigger": "req.post",
+            "contents": "req.post"
+        },
+        {
+            "trigger": "req.originalUrl",
+            "contents": "req.originalUrl"
+        },
+        {
+            "trigger": "req.params[.name]",
+            "contents": "req.params.${0:name}"
+        },
+        {
+            "trigger": "req.path",
+            "contents": "req.path"
+        },
+        {
+            "trigger": "req.protocol",
+            "contents": "req.protocol"
+        },
+        {
+            "trigger": "req.query[.name]",
+            "contents": "req.query.${0:name}"
+        },
+        {
+            "trigger": "req.route",
+            "contents": "req.route"
+        },
+        {
+            "trigger": "req.secure",
+            "contents": "req.secure"
+        },
+        {
+            "trigger": "req.signedCookies[.name]",
+            "contents": "req.signedCookies.${0:name}"
+        },
+        {
+            "trigger": "req.stale",
+            "contents": "req.stale"
+        },
+        {
+            "trigger": "req.subdomains",
+            "contents": "req.subdomains"
+        },
+        {
+            "trigger": "req.xhr",
+            "contents": "req.xhr"
+        },
+        {
+            "trigger": "req.accepts(types)",
+            "contents": "req.accepts(${0:types})"
+        },
+        {
+            "trigger": "req.acceptsCharsets(charset [, ...])",
+            "contents": "req.acceptsCharsets(${1:charset}${2:[, ...]})"
+        },
+        {
+            "trigger": "req.acceptsEncodings(encoding [, ...])",
+            "contents": "req.acceptsEncodings(${1:encoding}${2:[, ...]})"
+        },
+        {
+            "trigger": "req.acceptsLanguages(lang [, ...])",
+            "contents": "req.acceptsLanguages(${1:lang}${2:[, ...]})"
+        },
+        {
+            "trigger": "req.get(field)",
+            "contents": "req.get(${0:field})"
+        },
+        {
+            "trigger": "req.header(field)",
+            "contents": "req.header(${0:field})"
+        },
+        {
+            "trigger": "req.is(type)",
+            "contents": "req.is(${0:type})"
+        },
+        {
+            "trigger": "req.param(name [, defaultValue])",
+            "contents": "req.param(${1:name}${2:[, defaultValue]})"
+        },
+        {
+            "trigger": "req.range(size[, options])",
+            "contents": "req.range(${1:size}${2:[, options]})"
+        }
+    ]
+}

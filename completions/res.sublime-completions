@@ -1,0 +1,105 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "res.app",
+            "contents": "res.app"
+        },
+        {
+            "trigger": "res.headersSent",
+            "contents": "res.headersSent"
+        },
+        {
+            "trigger": "res.locals[.name]",
+            "contents": "res.locals.$0"
+        },
+        {
+            "trigger": "res.append(field [, value])",
+            "contents": "res.append(${1:field} ${2:[, value]})"
+        },
+        {
+            "trigger": "res.attachment([filename])",
+            "contents": "res.attachment(${0:[filename]})"
+        },
+        {
+            "trigger": "res.cookie(name, value [, options])",
+            "contents": "res.cookie(${1:name}, ${2:value}${3:[, options]})"
+        },
+        {
+            "trigger": "res.clearCookie(name [, options])",
+            "contents": "res.clearCookie(${1:name}${2:[, options]})"
+        },
+        {
+            "trigger": "res.download(path [, filename] [, fn])",
+            "contents": "res.download(${1:path}${2:[, filename]}${3:[, fn]})"
+        },
+        {
+            "trigger": "res.end([data] [, encoding])",
+            "contents": "res.end(${1:[data]}${2:[, encoding]})"
+        },
+        {
+            "trigger": "res.format(object)",
+            "contents": "res.format(${1:object})"
+        },
+        {
+            "trigger": "res.get(field)",
+            "contents": "res.get(${1:field})"
+        },
+        {
+            "trigger": "res.json([body])",
+            "contents": "res.json(${1:[body]})"
+        },
+        {
+            "trigger": "res.jsonp([body])",
+            "contents": "res.jsonp(${1:[body]})"
+        },
+        {
+            "trigger": "res.links(links)",
+            "contents": "res.links(${1:links})"
+        },
+        {
+            "trigger": "res.location(path)",
+            "contents": "res.location(${1:path})"
+        },
+        {
+            "trigger": "res.redirect([status,] path)",
+            "contents": "res.redirect(${1:[status,]} ${2:path})"
+        },
+        {
+            "trigger": "res.redirectback",
+            "contents": "res.redirect(${1:[status,]} ${2:path})"
+        },
+        {
+            "trigger": "res.render(view [, locals] [, callback])",
+            "contents": "res.render(${1:view}${2:[, locals]}${3:[, callback])}"
+        },
+        {
+            "trigger": "res.send([body])",
+            "contents": "res.send(${0:[body]})"
+        },
+        {
+            "trigger": "res.sendFile(path [, options] [, fn])",
+            "contents": "res.sendFile(${1:path}${2:[, options]}${3:[, fn]})"
+        },
+        {
+            "trigger": "res.sendStatus(statusCode)",
+            "contents": "res.sendStatus(${0:statusCode})"
+        },
+        {
+            "trigger": "res.set(field [, value])",
+            "contents": "res.set(${1:field}${2:[, value]})"
+        },
+        {
+            "trigger": "res.status(code)",
+            "contents": "res.status(${0:code})"
+        },
+        {
+            "trigger": "res.type(type)",
+            "contents": "res.type(${0:type})"
+        },
+        {
+            "trigger": "res.vary(field)",
+            "contents": "res.vary(${0:field})"
+        }
+    ]
+}
