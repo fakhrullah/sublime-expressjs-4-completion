@@ -2,103 +2,103 @@
     "scope": "source.js",
     "completions": [
         {
-            "trigger": "res.app",
+            "trigger": "resapp",
             "contents": "res.app"
         },
         {
-            "trigger": "res.headersSent",
+            "trigger": "resheadersSent",
             "contents": "res.headersSent"
         },
         {
-            "trigger": "res.locals[.name]",
+            "trigger": "reslocals[.name]",
             "contents": "res.locals.$0"
         },
         {
-            "trigger": "res.append(field [, value])",
+            "trigger": "resappend(field [, value])",
             "contents": "res.append(${1:field} ${2:[, value]})"
         },
         {
-            "trigger": "res.attachment([filename])",
+            "trigger": "resattachment([filename])",
             "contents": "res.attachment(${0:[filename]})"
         },
         {
-            "trigger": "res.cookie(name, value [, options])",
+            "trigger": "rescookie(name, value [, options])",
             "contents": "res.cookie(${1:name}, ${2:value}${3:[, options]})"
         },
         {
-            "trigger": "res.clearCookie(name [, options])",
+            "trigger": "resclearCookie(name [, options])",
             "contents": "res.clearCookie(${1:name}${2:[, options]})"
         },
         {
-            "trigger": "res.download(path [, filename] [, fn])",
+            "trigger": "resdownload(path [, filename] [, fn])",
             "contents": "res.download(${1:path}${2:[, filename]}${3:[, fn]})"
         },
         {
-            "trigger": "res.end([data] [, encoding])",
+            "trigger": "resend([data] [, encoding])",
             "contents": "res.end(${1:[data]}${2:[, encoding]})"
         },
         {
-            "trigger": "res.format(object)",
+            "trigger": "resformat(object)",
             "contents": "res.format(${1:object})"
         },
         {
-            "trigger": "res.get(field)",
+            "trigger": "resget(field)",
             "contents": "res.get(${1:field})"
         },
         {
-            "trigger": "res.json([body])",
+            "trigger": "resjson([body])",
             "contents": "res.json(${1:[body]})"
         },
         {
-            "trigger": "res.jsonp([body])",
+            "trigger": "resjsonp([body])",
             "contents": "res.jsonp(${1:[body]})"
         },
         {
-            "trigger": "res.links(links)",
+            "trigger": "reslinks(links)",
             "contents": "res.links(${1:links})"
         },
         {
-            "trigger": "res.location(path)",
+            "trigger": "reslocation(path)",
             "contents": "res.location(${1:path})"
         },
         {
-            "trigger": "res.redirect([status,] path)",
+            "trigger": "resredirect([status,] path)",
             "contents": "res.redirect(${1:[status,]} ${2:path})"
         },
         {
-            "trigger": "res.redirectback",
+            "trigger": "resredirectback",
             "contents": "res.redirect(${1:[status,]} ${2:path})"
         },
         {
-            "trigger": "res.render(view [, locals] [, callback])",
+            "trigger": "resrender(view [, locals] [, callback])",
             "contents": "res.render(${1:view}${2:[, locals]}${3:[, callback])}"
         },
         {
-            "trigger": "res.send([body])",
+            "trigger": "ressend([body])",
             "contents": "res.send(${0:[body]})"
         },
         {
-            "trigger": "res.sendFile(path [, options] [, fn])",
+            "trigger": "ressendFile(path [, options] [, fn])",
             "contents": "res.sendFile(${1:path}${2:[, options]}${3:[, fn]})"
         },
         {
-            "trigger": "res.sendStatus(statusCode)",
+            "trigger": "ressendStatus(statusCode)",
             "contents": "res.sendStatus(${0:statusCode})"
         },
         {
-            "trigger": "res.set(field [, value])",
+            "trigger": "resset(field [, value])",
             "contents": "res.set(${1:field}${2:[, value]})"
         },
         {
-            "trigger": "res.status(code)",
+            "trigger": "resstatus(code)",
             "contents": "res.status(${0:code})"
         },
         {
-            "trigger": "res.type(type)",
+            "trigger": "restype(type)",
             "contents": "res.type(${0:type})"
         },
         {
-            "trigger": "res.vary(field)",
+            "trigger": "resvary(field)",
             "contents": "res.vary(${0:field})"
         }
     ]

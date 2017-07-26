@@ -2,151 +2,151 @@
     "scope": "source.js",
     "completions": [
         {
-            "trigger": "app.locals.[variables]",
+            "trigger": "applocals[variables]",
             "contents": "app.locals.${0:variable}"
         },
         {
-            "trigger": "app.all(path, callback [,callback ...])",
+            "trigger": "appall(path, callback [,callback ...])",
             "contents": "app.all(${1:path}, ${0:callback})"
         },
         {
-            "trigger": "app.delete(path, callback [, callback ...])",
+            "trigger": "appdelete(path, callback [, callback ...])",
             "contents": "app.delete(${1:path}, ${2:callback})"
         },
         {
-            "trigger": "app.disable(name)",
+            "trigger": "appdisable(name)",
             "contents": "app.disable(${0:name})"
         },
         {
-            "trigger": "app.disabled(name)",
+            "trigger": "appdisabled(name)",
             "contents": "app.disabled(${0:name})"
         },
         {
-            "trigger": "app.enable(name)",
+            "trigger": "appenable(name)",
             "contents": "app.enable(${0:name})"
         },
         {
-            "trigger": "app.enabled(name)",
+            "trigger": "appenabled(name)",
             "contents": "app.enabled(${0:name})"
         },
         {
-            "trigger": "app.engine(ext, callback)",
+            "trigger": "appengine(ext, callback)",
             "contents": "app.engine(${1:ext}, ${2:callback})"
         },
         {
-            "trigger": "app.get(name)",
+            "trigger": "appget(name)",
             "contents": "app.get(${0:name})"
         },
         {
-            "trigger": "app.get(path, callback [, callback ...])",
+            "trigger": "appget(path, callback [, callback ...])",
             "contents": "app.get(${1:path}, ${2:callback})"
         },
         {
-            "trigger": "app.listen(port, [hostname], [backlog], [callback])",
+            "trigger": "applisten(port, [hostname], [backlog], [callback])",
             "contents": "app.listen(${1:port}${2:[, hostname]}${3:[, backlog]}${4:[, callback]})"
         },
         {
-            "trigger": "app.param([name], callback)",
+            "trigger": "appparam([name], callback)",
             "contents": "app.param(${1:namesArray}, ${2:callback})"
         },
         {
-            "trigger": "app.path()",
+            "trigger": "apppath()",
             "contents": "app.path()"
         },
         {
-            "trigger": "app.post(path, callback [, callback ...])",
+            "trigger": "apppost(path, callback [, callback ...])",
             "contents": "app.post(${1:path}, ${2:callback})"
         },
         {
-            "trigger": "app.put(path, callback [, callback ...])",
+            "trigger": "appput(path, callback [, callback ...])",
             "contents": "app.put(${1:path}, ${2:callback})"
         },
         {
-            "trigger": "app.render(view, [locals], callback)",
+            "trigger": "apprender(view, [locals], callback)",
             "contents": "app.render(${1:view}${2:[, locals]}, ${3:callback})"
         },
         {
-            "trigger": "app.route(path)",
+            "trigger": "approute(path)",
             "contents": "app.route(${1:path})"
         },
         {
-            "trigger": "app.set(name, value)",
+            "trigger": "appset(name, value)",
             "contents": "app.set(${1:name}, ${2:value})"
         },
         {
-            "trigger": "app.use([path,] function [, function...])",
+            "trigger": "appuse([path,] function [, function...])",
             "contents": "app.use(${1:[path,] ${2:function})"
         },
         {
-            "trigger": "app.checkout()",
+            "trigger": "appcheckout()",
             "contents": "app.checkout()"
         },
         {
-            "trigger": "app.copy()",
+            "trigger": "appcopy()",
             "contents": "app.copy()"
         },
         {
-            "trigger": "app.head()",
+            "trigger": "apphead()",
             "contents": "app.head()"
         },
         {
-            "trigger": "app.lock()",
+            "trigger": "applock()",
             "contents": "app.lock()"
         },
         {
-            "trigger": "app.merge()",
+            "trigger": "appmerge()",
             "contents": "app.merge()"
         },
         {
-            "trigger": "app.mkactivity()",
+            "trigger": "appmkactivity()",
             "contents": "app.mkactivity()"
         },
         {
-            "trigger": "app.mkcool()",
+            "trigger": "appmkcool()",
             "contents": "app.mkcool()"
         },
         {
-            "trigger": "app.move()",
+            "trigger": "appmove()",
             "contents": "app.move()"
         },
         {
-            "trigger": "app.m-search",
+            "trigger": "appm-search",
             "contents": "app['m-search']"
         },
         {
-            "trigger": "app.notify()",
+            "trigger": "appnotify()",
             "contents": "app.notify()"
         },
         {
-            "trigger": "app.options()",
+            "trigger": "appoptions()",
             "contents": "app.options()"
         },
         {
-            "trigger": "app.patch()",
+            "trigger": "apppatch()",
             "contents": "app.patch()"
         },
         {
-            "trigger": "app.purge()",
+            "trigger": "apppurge()",
             "contents": "app.purge()"
         },
         {
-            "trigger": "app.report()",
+            "trigger": "appreport()",
             "contents": "app.report()"
         },
         {
-            "trigger": "app.search()",
+            "trigger": "appsearch()",
             "contents": "app.search()"
         },
         {
-            "trigger": "app.subscribe()",
+            "trigger": "appsubscribe()",
             "contents": "app.subscribe()"
         },
         {
-            "trigger": "app.trace()",
+            "trigger": "apptrace()",
             "contents": "app.trace()"
         },
         {
-            "trigger": "app.unlock()",
+            "trigger": "appunlock()",
             "contents": "app.unlock()"
         },
         {

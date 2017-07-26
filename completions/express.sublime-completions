@@ -6,11 +6,11 @@
             "contents": "express()"
         },
         {
-            "trigger": "express.static",
+            "trigger": "expressstatic",
             "contents": "express.static()"
         },
         {
-            "trigger": "express.router([options])",
+            "trigger": "expressrouter([options])",
             "contents": "express.Router(${0:options})"
         }
     ]
