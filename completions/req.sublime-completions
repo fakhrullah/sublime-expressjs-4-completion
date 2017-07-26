@@ -2,127 +2,127 @@
     "scope": "source.js",
     "completions": [
         {
-            "trigger": "req.app",
+            "trigger": "reqapp",
             "contents": "req.app"
         },
         {
-            "trigger": "req.baseUrl",
+            "trigger": "reqbaseUrl",
             "contents": "req.baseUrl"
         },
         {
-            "trigger": "req.body",
+            "trigger": "reqbody",
             "contents": "req.body"
         },
         {
-            "trigger": "req.cookies[.name]",
+            "trigger": "reqcookies[.name]",
             "contents": "req.cookies.${0:name}"
         },
         {
-            "trigger": "req.fresh",
+            "trigger": "reqfresh",
             "contents": "req.fresh"
         },
         {
-            "trigger": "req.hostname",
+            "trigger": "reqhostname",
             "contents": "req.hostname"
         },
         {
-            "trigger": "req.ip",
+            "trigger": "reqip",
             "contents": "req.ip"
         },
         {
-            "trigger": "req.ips",
+            "trigger": "reqips",
             "contents": "req.ips"
         },
         {
-            "trigger": "req.get",
+            "trigger": "reqget",
             "contents": "req.get"
         },
         {
-            "trigger": "req.put",
+            "trigger": "reqput",
             "contents": "req.put"
         },
         {
-            "trigger": "req.post",
+            "trigger": "reqpost",
             "contents": "req.post"
         },
         {
-            "trigger": "req.originalUrl",
+            "trigger": "reqoriginalUrl",
             "contents": "req.originalUrl"
         },
         {
-            "trigger": "req.params[.name]",
+            "trigger": "reqparams[.name]",
             "contents": "req.params.${0:name}"
         },
         {
-            "trigger": "req.path",
+            "trigger": "reqpath",
             "contents": "req.path"
         },
         {
-            "trigger": "req.protocol",
+            "trigger": "reqprotocol",
             "contents": "req.protocol"
         },
         {
-            "trigger": "req.query[.name]",
+            "trigger": "reqquery[.name]",
             "contents": "req.query.${0:name}"
         },
         {
-            "trigger": "req.route",
+            "trigger": "reqroute",
             "contents": "req.route"
         },
         {
-            "trigger": "req.secure",
+            "trigger": "reqsecure",
             "contents": "req.secure"
         },
         {
-            "trigger": "req.signedCookies[.name]",
+            "trigger": "reqsignedCookies[.name]",
             "contents": "req.signedCookies.${0:name}"
         },
         {
-            "trigger": "req.stale",
+            "trigger": "reqstale",
             "contents": "req.stale"
         },
         {
-            "trigger": "req.subdomains",
+            "trigger": "reqsubdomains",
             "contents": "req.subdomains"
         },
         {
-            "trigger": "req.xhr",
+            "trigger": "reqxhr",
             "contents": "req.xhr"
         },
         {
-            "trigger": "req.accepts(types)",
+            "trigger": "reqaccepts(types)",
             "contents": "req.accepts(${0:types})"
         },
         {
-            "trigger": "req.acceptsCharsets(charset [, ...])",
+            "trigger": "reqacceptsCharsets(charset [, ...])",
             "contents": "req.acceptsCharsets(${1:charset}${2:[, ...]})"
         },
         {
-            "trigger": "req.acceptsEncodings(encoding [, ...])",
+            "trigger": "reqacceptsEncodings(encoding [, ...])",
             "contents": "req.acceptsEncodings(${1:encoding}${2:[, ...]})"
         },
         {
-            "trigger": "req.acceptsLanguages(lang [, ...])",
+            "trigger": "reqacceptsLanguages(lang [, ...])",
             "contents": "req.acceptsLanguages(${1:lang}${2:[, ...]})"
         },
         {
-            "trigger": "req.get(field)",
+            "trigger": "reqget(field)",
             "contents": "req.get(${0:field})"
         },
         {
-            "trigger": "req.header(field)",
+            "trigger": "reqheader(field)",
             "contents": "req.header(${0:field})"
         },
         {
-            "trigger": "req.is(type)",
+            "trigger": "reqis(type)",
             "contents": "req.is(${0:type})"
         },
         {
-            "trigger": "req.param(name [, defaultValue])",
+            "trigger": "reqparam(name [, defaultValue])",
             "contents": "req.param(${1:name}${2:[, defaultValue]})"
         },
         {
-            "trigger": "req.range(size[, options])",
+            "trigger": "reqrange(size[, options])",
             "contents": "req.range(${1:size}${2:[, options]})"
         }
     ]
